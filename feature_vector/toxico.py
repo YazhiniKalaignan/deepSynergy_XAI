@@ -21,3 +21,6 @@ def generate_toxico_df(smiles_file, alerts_file):
     tox_df = pd.DataFrame(feature_matrix, columns=alerts_df["Name"])
     tox_df["Drug"] = smiles_df["Drug"]
     return tox_df
+
+
+

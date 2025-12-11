@@ -39,3 +39,4 @@ def generate_physico_df(smiles_file, labels_file):
     chem_desc_df = pd.DataFrame(labels_df['Combined_chem_desc'].tolist(), columns=combined_names)
     chem_desc_df['synergy'] = labels_df['synergy']
     return chem_desc_df
+
