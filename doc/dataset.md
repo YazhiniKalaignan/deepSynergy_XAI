@@ -95,7 +95,7 @@ Concatenation to get final dataset with labelled feature vectors by matching val
 Shape after concatenation: (23052, 10213)
 
 - 23052 rows which are the unique combinations of 38 drugs and 39 cell lines
-- 25653 features per row which include ECFP, physicochemical descriptors, Toxicophore features and cell line gene features
+- 10213 features per row which include ECFP, physicochemical descriptors, Toxicophore features and cell line gene features
 
 >Step 2: Data Preprocessing
 
