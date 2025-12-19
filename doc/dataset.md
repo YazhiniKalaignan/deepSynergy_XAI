@@ -6,7 +6,7 @@
 
 38 drugs- 583 distinct combinations
 
-Drug combinations AB and BA is considered seperately even though it gives the same output. 
+DeepSynergy considers drug combinations AB and BA seperately.
 
 39 cell lines
 
@@ -40,11 +40,13 @@ SMILES- Simplified Molecular Input Line Entry System
 1.	Use labels to get drug names
 2.	Use SMILES values to generate the input vectors for drugs
 3.	Generate ECFP using RDKit
-4.	Generate standard Physico-chemical descriptors using ChemoPy and RDKit
+4.	Generate standard Physico-chemical descriptors using chemopy2 and RDKit
 5.	Generate Toxicophore features from rd_filters.
 6.	Extract gene features from literature and perform normalization.
 7.	Combine all the features according to the distinct combinations given in labels file.
 8.	Reduce feature space by filtering out zero variance features.
+
+**Chemopy2 and RDKit are older python packages and hence can only be used properly with older python verions.(python3.10)**
 
 #### New input feature vectors:
 
