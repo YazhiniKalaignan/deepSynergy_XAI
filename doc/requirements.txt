@@ -1,0 +1,12 @@
+#Python 3.10.19
+chemopy2==1.0.11
+e3fp==1.2.7
+jupyter==1.1.1
+babel==2.17.0
+keras==3.12.0
+numpy==2.2.6
+openbabel-wheel==3.1.1.22
+openpyxl==3.1.5
+pandas==2.3.3
+rdkit==2025.9.3
+tensorflow==2.20.0

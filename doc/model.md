@@ -17,7 +17,7 @@ After normalization:
 - Hyperparameters:
     
     - Normalization technique (norm; norm+tanh; norm+tanh+norm)
-    - Learning rates ($10^2$;$10^3$;$10^4$;$10^5$)
+    - Learning rates ($10^2$ ; $10^3$ ; $10^4$ ; $10^5$)
     - dropout values (no dropout; input: 0.2, hidden: 0.5)
     - no. of neurons in the 1st hidden layers  ( [8192, 8192]; [4096, 4096]; [2048, 2048];
 [8192, 4096]; [4096, 2048]; [4096, 4096, 4096];

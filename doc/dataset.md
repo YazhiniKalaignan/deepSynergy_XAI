@@ -55,13 +55,12 @@ SMILES- Simplified Molecular Input Line Entry System
     - Extended connectivity finger print
     - Generated for 38 drugs using RDKit
     - 1024 bits(features) for each drug
-    - 2048 ECFP per row
+
 
 - Physico-Chemical Descriptors
 
     - Using ChemoPy
-    - For each drug-632 features
-    - 632*2 -1264 features per row
+    - Predefined physico-chemical descriptors
 
 - Toxicophore features
 
@@ -74,7 +73,6 @@ SMILES- Simplified Molecular Input Line Entry System
 
 - Cell line features
 
-     - Each cell line- top 3984 gene features
     - Normalized values
     - Source- ArrayExpress E-MATB-3610
     - Normalized using FARMS
