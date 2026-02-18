@@ -35,10 +35,10 @@ According to DeepSynergy, we perform normalization using 3 techniques:
 - Model metrics:
 
     Validation Metrics:
-        - Mean absolute error               :0.4545
-        - Mean squared error                :0.5046
-        - Root mean squared error           :0.7104
-        - Pearson's correlation coefficient :0.9995
+        -Mean absolute error               :0.4545
+        -Mean squared error                :0.5046
+        -Root mean squared error           :0.7104
+        -Pearson's correlation coefficient :0.9995
 
     
     
