@@ -31,7 +31,7 @@ def load(norm='tanh_norm', test_fold=0, val_fold=1):
         return X, means1, std1, means2, std2, feat_filt
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     data_folder = os.path.join(BASE_DIR, "datasets")
-    X_file = os.path.join(data_folder, "Feature_vectors_dataset_zeroVarRemoved.p.gz")
+    X_file = os.path.join(data_folder, "Feature_vectors_dataset.p.gz")
     labels_file = os.path.join(data_folder, "labels.csv")
     with gzip.open(X_file, 'rb') as f:
         X = pickle.load(f)
