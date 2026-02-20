@@ -3,5 +3,5 @@ hidden_layers: [1024, 1024]
 learning_rate: 0.0001
 input_dropout: 0.2
 hidden_dropout: 0.5
-epochs: 950
-best_val_loss: 0.5445041060447693
+epochs: 935
+best_val_loss: 280.9870910644531

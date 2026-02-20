@@ -1,6 +1,6 @@
 {
   "last_completed_idx": 119,
-  "best_val_loss": 0.5445041060447693,
+  "best_val_loss": 280.9870910644531,
   "best_params": {
     "norm": "norm",
     "hidden_layers": [
@@ -10,9 +10,9 @@
     "learning_rate": 0.0001,
     "input_dropout": 0.2,
     "hidden_dropout": 0.5,
-    "epochs": 950
+    "epochs": 935
   },
-  "best_epoch": 950,
+  "best_epoch": 935,
   "records": [
     {
       "local_params": {
@@ -26,7 +26,7 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -40,7 +40,7 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -52,23 +52,23 @@
         "learning_rate": 0.001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 17,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
       },
       "local_best_epoch": 2,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -81,8 +81,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 994,
-      "local_best_loss": 3.4070420265197754
+      "local_best_epoch": 596,
+      "local_best_loss": 286.60784912109375
     },
     {
       "local_params": {
@@ -95,8 +95,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 861,
-      "local_best_loss": 1.0134235620498657
+      "local_best_epoch": 728,
+      "local_best_loss": 281.14654541015625
     },
     {
       "local_params": {
@@ -109,8 +109,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 967,
-      "local_best_loss": 4.7251129150390625
+      "local_best_epoch": 838,
+      "local_best_loss": 307.37835693359375
     },
     {
       "local_params": {
@@ -123,8 +123,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 872,
-      "local_best_loss": 2.2620596885681152
+      "local_best_epoch": 845,
+      "local_best_loss": 286.3650817871094
     },
     {
       "local_params": {
@@ -138,7 +138,7 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -152,7 +152,7 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -165,8 +165,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 0,
-      "local_best_loss": 147.3728790283203
+      "local_best_epoch": 27,
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -179,8 +179,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 1,
-      "local_best_loss": null
+      "local_best_epoch": 4,
+      "local_best_loss": 426.6808776855469
     },
     {
       "local_params": {
@@ -193,8 +193,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 438,
-      "local_best_loss": 4.177751541137695
+      "local_best_epoch": 887,
+      "local_best_loss": 289.5281982421875
     },
     {
       "local_params": {
@@ -207,132 +207,13 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 975,
-      "local_best_loss": 0.791451632976532
+      "local_best_epoch": 271,
+      "local_best_loss": 281.7680358886719
     },
     {
       "local_params": {
         "norm": "norm",
         "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 972,
-      "local_best_loss": 4.451664924621582
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 972,
-      "local_best_loss": 1.4264084100723267
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 1,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 976,
-      "local_best_loss": 4.61041784286499
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 961,
-      "local_best_loss": 2.924247980117798
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          4096,
           2048,
           1024
         ],
@@ -341,7 +222,21 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 935,
-      "local_best_loss": 8.14842700958252
+      "local_best_loss": 313.85491943359375
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 811,
+      "local_best_loss": 285.5151062011719
     },
     {
       "local_params": {
@@ -351,152 +246,19 @@
           2048,
           1024
         ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 891,
-      "local_best_loss": 3.9392926692962646
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
         "learning_rate": 0.01,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "norm",
         "hidden_layers": [
+          4096,
           2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 942,
-      "local_best_loss": 4.851940155029297
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 984,
-      "local_best_loss": 1.9485931396484375
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 998,
-      "local_best_loss": 9.124836921691895
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 875,
-      "local_best_loss": 2.105715036392212
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
           1024
         ],
         "learning_rate": 0.01,
@@ -504,13 +266,14 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "norm",
         "hidden_layers": [
-          1024,
+          4096,
+          2048,
           1024
         ],
         "learning_rate": 0.001,
@@ -518,292 +281,73 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 3,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "norm",
         "hidden_layers": [
-          1024,
+          4096,
+          2048,
           1024
         ],
         "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 3,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 981,
-      "local_best_loss": 4.285399913787842
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 949,
-      "local_best_loss": 0.5445041060447693
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 968,
-      "local_best_loss": 5.588046073913574
-    },
-    {
-      "local_params": {
-        "norm": "norm",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 982,
-      "local_best_loss": 0.6994450092315674
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.01,
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
           4096,
-          2048
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 19,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 10,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048
+          2048,
+          1024
         ],
         "learning_rate": 0.0001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 870,
-      "local_best_loss": 40.31351852416992
+      "local_best_epoch": 391,
+      "local_best_loss": 288.26495361328125
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
           4096,
-          2048
+          2048,
+          1024
         ],
         "learning_rate": 0.0001,
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 947,
-      "local_best_loss": 36.32383346557617
+      "local_best_epoch": 233,
+      "local_best_loss": 291.7288818359375
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
           4096,
-          2048
+          2048,
+          1024
         ],
         "learning_rate": 1e-05,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 27,
-      "local_best_loss": 86.2765121459961
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
       },
       "local_best_epoch": 998,
-      "local_best_loss": 39.06705856323242
+      "local_best_loss": 308.280517578125
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 232,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 8,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 752,
-      "local_best_loss": 40.825077056884766
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 851,
-      "local_best_loss": 35.907196044921875
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 28,
-      "local_best_loss": 84.76326751708984
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
+          4096,
           2048,
           1024
         ],
@@ -811,15 +355,134 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 991,
-      "local_best_loss": 36.49135971069336
+      "local_best_epoch": 253,
+      "local_best_loss": 291.4293212890625
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
-          4096,
           2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 5,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 627,
+      "local_best_loss": 295.03125
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 196,
+      "local_best_loss": 293.9092712402344
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 995,
+      "local_best_loss": 300.45184326171875
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 898,
+      "local_best_loss": 290.3958740234375
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          1024,
           1024
         ],
         "learning_rate": 0.01,
@@ -827,14 +490,13 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
-          4096,
-          2048,
+          1024,
           1024
         ],
         "learning_rate": 0.01,
@@ -842,273 +504,611 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
-          4096,
-          2048,
+          1024,
           1024
         ],
         "learning_rate": 0.001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 7,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
       },
       "local_best_epoch": 4,
-      "local_best_loss": null
+      "local_best_loss": 369.9127502441406
     },
     {
       "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 564,
-      "local_best_loss": 41.76114273071289
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 972,
-      "local_best_loss": 46.599586486816406
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 998,
-      "local_best_loss": 75.95426177978516
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 517,
-      "local_best_loss": 50.10600280761719
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 13,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 2,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 588,
-      "local_best_loss": 40.799293518066406
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 624,
-      "local_best_loss": 50.77012634277344
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 953,
-      "local_best_loss": 73.84226989746094
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 186,
-      "local_best_loss": 47.84432601928711
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
-        "hidden_layers": [
-          1024,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
           1024,
           1024
         ],
         "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.0001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 45,
-      "local_best_loss": 92.16207122802734
+      "local_best_epoch": 811,
+      "local_best_loss": 295.0288391113281
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 934,
+      "local_best_loss": 280.9870910644531
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 933,
+      "local_best_loss": 316.90374755859375
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 534,
+      "local_best_loss": 283.1815185546875
     },
     {
       "local_params": {
         "norm": "tanh",
         "hidden_layers": [
-          1024,
-          1024
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 261,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
         ],
         "learning_rate": 0.001,
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 15,
-      "local_best_loss": null
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 696,
+      "local_best_loss": 296.52001953125
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 980,
+      "local_best_loss": 289.22027587890625
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 847,
+      "local_best_loss": 332.43475341796875
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 996,
+      "local_best_loss": 293.3067932128906
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 733,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 9,
+      "local_best_loss": 347.92694091796875
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 600,
+      "local_best_loss": 302.59307861328125
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 853,
+      "local_best_loss": 289.9078369140625
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 990,
+      "local_best_loss": 331.5913391113281
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 721,
+      "local_best_loss": 291.2848205566406
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 21,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 2,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 53,
+      "local_best_loss": 294.9340515136719
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 502,
+      "local_best_loss": 291.9284362792969
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 981,
+      "local_best_loss": 310.3161926269531
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 792,
+      "local_best_loss": 288.9245300292969
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 19,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 6,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 37,
+      "local_best_loss": 305.6877136230469
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 909,
+      "local_best_loss": 291.8857421875
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 960,
+      "local_best_loss": 316.432373046875
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          2048,
+          1024,
+          512
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 934,
+      "local_best_loss": 288.778076171875
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 375,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 19,
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -1121,8 +1121,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 827,
-      "local_best_loss": 40.43573760986328
+      "local_best_epoch": 894,
+      "local_best_loss": 297.1405334472656
     },
     {
       "local_params": {
@@ -1135,8 +1135,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 847,
-      "local_best_loss": 38.93317413330078
+      "local_best_epoch": 214,
+      "local_best_loss": 289.7884521484375
     },
     {
       "local_params": {
@@ -1146,444 +1146,486 @@
           1024
         ],
         "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 926,
+      "local_best_loss": 332.9540100097656
+    },
+    {
+      "local_params": {
+        "norm": "tanh",
+        "hidden_layers": [
+          1024,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 974,
+      "local_best_loss": 287.80126953125
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 13,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 1,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 512,
+      "local_best_loss": 291.6853332519531
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 857,
+      "local_best_loss": 281.14691162109375
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 953,
+      "local_best_loss": 309.4557189941406
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 599,
+      "local_best_loss": 286.65985107421875
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 6,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 1,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 184,
+      "local_best_loss": 287.68524169921875
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": Infinity
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "norm",
+        "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 31,
-      "local_best_loss": 85.99174499511719
+      "local_best_loss": NaN
     },
     {
       "local_params": {
-        "norm": "tanh",
+        "norm": "norm",
         "hidden_layers": [
+          4096,
+          2048
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 4,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 926,
+      "local_best_loss": 307.7826843261719
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 697,
+      "local_best_loss": 284.5893859863281
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.01,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 2,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 0,
+      "local_best_loss": NaN
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 53,
+      "local_best_loss": 292.5225830078125
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 0.0001,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 147,
+      "local_best_loss": 291.75335693359375
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.0,
+        "hidden_dropout": 0.0
+      },
+      "local_best_epoch": 964,
+      "local_best_loss": 305.2886657714844
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          4096,
+          2048,
+          1024
+        ],
+        "learning_rate": 1e-05,
+        "input_dropout": 0.2,
+        "hidden_dropout": 0.5
+      },
+      "local_best_epoch": 665,
+      "local_best_loss": 291.2513122558594
+    },
+    {
+      "local_params": {
+        "norm": "tanh_norm",
+        "hidden_layers": [
+          2048,
           1024,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 860,
-      "local_best_loss": 36.56495666503906
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
+          512
         ],
         "learning_rate": 0.01,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "tanh_norm",
         "hidden_layers": [
-          4096,
-          2048
+          2048,
+          1024,
+          512
         ],
         "learning_rate": 0.01,
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "tanh_norm",
         "hidden_layers": [
-          4096,
-          2048
+          2048,
+          1024,
+          512
         ],
         "learning_rate": 0.001,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 4,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 897,
-      "local_best_loss": 42.696632385253906
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 866,
-      "local_best_loss": 37.76588439941406
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 969,
-      "local_best_loss": 88.2376708984375
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 940,
-      "local_best_loss": 42.618839263916016
+      "local_best_epoch": 3,
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "tanh_norm",
         "hidden_layers": [
           2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": Infinity
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 4,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
+          1024,
+          512
         ],
         "learning_rate": 0.001,
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
         "norm": "tanh_norm",
         "hidden_layers": [
           2048,
-          1024
+          1024,
+          512
         ],
         "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 944,
-      "local_best_loss": 43.28607177734375
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 932,
-      "local_best_loss": 35.20355987548828
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 23,
-      "local_best_loss": 94.39098358154297
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 871,
-      "local_best_loss": 40.451141357421875
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 1,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 862,
-      "local_best_loss": 41.910919189453125
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 213,
-      "local_best_loss": 63.011207580566406
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 982,
-      "local_best_loss": 69.1384048461914
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          4096,
-          2048,
-          1024
-        ],
-        "learning_rate": 1e-05,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 884,
-      "local_best_loss": 60.50706481933594
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.01,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 1,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.001,
-        "input_dropout": 0.2,
-        "hidden_dropout": 0.5
-      },
-      "local_best_epoch": 0,
-      "local_best_loss": null
-    },
-    {
-      "local_params": {
-        "norm": "tanh_norm",
-        "hidden_layers": [
-          2048,
-          1024,
-          512
-        ],
-        "learning_rate": 0.0001,
-        "input_dropout": 0.0,
-        "hidden_dropout": 0.0
-      },
-      "local_best_epoch": 527,
-      "local_best_loss": 43.6313591003418
+      "local_best_loss": 298.8131103515625
     },
     {
       "local_params": {
@@ -1597,8 +1639,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 125,
-      "local_best_loss": 67.21163177490234
+      "local_best_epoch": 572,
+      "local_best_loss": 294.0343017578125
     },
     {
       "local_params": {
@@ -1612,8 +1654,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 956,
-      "local_best_loss": 77.84617614746094
+      "local_best_epoch": 994,
+      "local_best_loss": 305.3678894042969
     },
     {
       "local_params": {
@@ -1627,8 +1669,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 872,
-      "local_best_loss": 59.4332275390625
+      "local_best_epoch": 769,
+      "local_best_loss": 287.6195068359375
     },
     {
       "local_params": {
@@ -1642,7 +1684,7 @@
         "hidden_dropout": 0.0
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -1656,7 +1698,7 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": null
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -1669,8 +1711,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 0,
-      "local_best_loss": 314.8883361816406
+      "local_best_epoch": 11,
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -1684,7 +1726,7 @@
         "hidden_dropout": 0.5
       },
       "local_best_epoch": 0,
-      "local_best_loss": Infinity
+      "local_best_loss": NaN
     },
     {
       "local_params": {
@@ -1697,8 +1739,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 678,
-      "local_best_loss": 44.001529693603516
+      "local_best_epoch": 853,
+      "local_best_loss": 290.9192199707031
     },
     {
       "local_params": {
@@ -1711,8 +1753,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 982,
-      "local_best_loss": 40.49372482299805
+      "local_best_epoch": 961,
+      "local_best_loss": 282.66162109375
     },
     {
       "local_params": {
@@ -1725,8 +1767,8 @@
         "input_dropout": 0.0,
         "hidden_dropout": 0.0
       },
-      "local_best_epoch": 30,
-      "local_best_loss": 91.53327941894531
+      "local_best_epoch": 646,
+      "local_best_loss": 313.9102783203125
     },
     {
       "local_params": {
@@ -1739,8 +1781,8 @@
         "input_dropout": 0.2,
         "hidden_dropout": 0.5
       },
-      "local_best_epoch": 958,
-      "local_best_loss": 43.23267364501953
+      "local_best_epoch": 278,
+      "local_best_loss": 284.8096923828125
     }
   ]
 }
