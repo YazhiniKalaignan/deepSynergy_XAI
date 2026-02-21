@@ -1,0 +1,7 @@
+norm: tanh_norm
+hidden_layers: [2048, 1024, 512]
+learning_rate: 0.0001
+input_dropout: 0.2
+hidden_dropout: 0.3
+epochs: 766
+best_val_loss: 283.9819030761719
