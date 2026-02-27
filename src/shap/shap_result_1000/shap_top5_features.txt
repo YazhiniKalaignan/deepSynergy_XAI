@@ -16,3 +16,6 @@ Rank 4: A_ECFP_ECFP6_267
 Rank 5: A_ECFP_ECFP6_377
   Mean |SHAP| : 0.032131
 
+
+Stability Check -top 10 across seeds:
+Consistent features: {'B_Qmin', 'A_ECFP_ECFP6_295', 'A_ECFP_ECFP6_127'}
