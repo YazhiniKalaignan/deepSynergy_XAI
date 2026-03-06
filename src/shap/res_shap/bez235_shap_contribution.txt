@@ -1,0 +1,10 @@
+Rank 1: B_ECFP_ECFP6_869  Mean SHAP: 0.149203  Global Rank:161
+Rank 2: B_ECFP_ECFP6_58  Mean SHAP: 0.146820  Global Rank:56
+Rank 3: B_ECFP_ECFP6_517  Mean SHAP: 0.143920  Global Rank:220
+Rank 4: B_ECFP_ECFP6_177  Mean SHAP: 0.140490  Global Rank:235
+Rank 5: B_ECFP_ECFP6_785  Mean SHAP: 0.138440  Global Rank:245
+Rank 6: B_ECFP_ECFP6_476  Mean SHAP: 0.136510  Global Rank:260
+Rank 7: B_ECFP_ECFP6_89  Mean SHAP: 0.136460  Global Rank:263
+Rank 8: B_ECFP_ECFP6_566  Mean SHAP: 0.135715  Global Rank:257
+Rank 9: B_ECFP_ECFP6_618  Mean SHAP: 0.134970  Global Rank:273
+Rank 10: B_ECFP_ECFP6_393  Mean SHAP: 0.134866  Global Rank:269
