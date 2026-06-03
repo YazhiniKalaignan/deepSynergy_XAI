@@ -16,15 +16,12 @@ SHAP assigns each feature an importance value for a particular prediction
 
 >**Pipeline/ Workflow**
 
-1.	Feature vector generation
-2.	Data preprocessing- perform zero variance filtering
+1.	Feature vectors extraction
+2.	Feature vector concatenation
 3.	Hyper Parameter tuning- Stratified nested cross validation with 5 folds
 4.  Perform Normalization
 5.	Train model
-6.	Apply SHAP to identify top values driving prediction- predicted important features
-7.	Drug feature extraction- DrugBank, KEGG
-8.	Cell line feature extraction from CCLE- gene expressions and mutations
-9.	Combine features- Drug+ Cell line
-10.	Intersect drug target and pathways to cell line pathways- biologically important features
-11.	Overlap SHAP with Ground truth
+6.	Apply SHAP to identify top values driving prediction
+7.	Demonstrate explainability analysis using suitable USECASE
+
 
